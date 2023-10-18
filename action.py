@@ -88,7 +88,7 @@ def take_action(keyword,query):
         print(completion)
         speak(completion)
 
-    elif keyword == 'exit':
+    elif keyword == 'close':
 
             print("Bye!!! it was nice meeting you.")
             speak("Bye!!! it was nice meeting you.")

@@ -10,7 +10,7 @@ def completion_api_call(context: str) -> str:
         str: output based on context
     """
 
-    api_key = "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"
+    api_key = "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"
     endpoint = "https://api.openai.com/v1/chat/completions"
 
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
@@ -36,7 +36,7 @@ def context_query(query):
     - teams: user wants to open microsoft teams
     - spotify: user wants to play music or open spotify
     - whatsapp: user wants to open and use whatsapp
-    - exit: user wants to close the application
+    - close: user wants to close/exit the application.
     - small_talk: Detect this if none of the above are detected
 
     [Instructions]:
